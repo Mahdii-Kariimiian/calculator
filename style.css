@@ -1,0 +1,113 @@
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img, 
+picture, 
+video, 
+canvas, 
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, 
+button, 
+textarea, 
+select {
+  font: inherit;
+}
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 350px;
+    margin: 50px;
+    font-size: 2rem;
+  }
+
+  .calculator {
+    background-color:#D8D9DB;
+  }
+
+  #result {
+    height: 70px;
+    width:100%;;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+
+  table {
+    width: 350px;
+    border-collapse: collapse;
+    text-align: center;
+    
+  }
+
+  th,td,tr {
+    border: 2px solid black;
+  }
+
+  th {
+    background-color: #df984c ;
+  }
+
+  tr {
+   height: 70px;
+  }
+  
+  th:hover {
+    cursor: pointer;
+    background-color: hsla(31, 70%, 59%, 0.733) ;
+  }
+
+  td:hover {
+    cursor: pointer;
+    background-color:#ececec;
+  }
+
+  i {
+    font-size: .2rem;
+  }
+
+  th:active {
+    opacity: 80%;
+  }
+
+  td:active {
+    opacity: 80%;
+  }
+  
+  img {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+ 
+
+  
