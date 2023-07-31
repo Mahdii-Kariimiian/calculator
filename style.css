@@ -44,7 +44,7 @@ body {
     align-items: center;
     height: 500px;
     width: 350px;
-    margin: 50px;
+    margin: 100px;
     font-size: 2rem;
   }
 
@@ -57,7 +57,7 @@ body {
     width:100%;;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: right;
   }
 
@@ -70,6 +70,7 @@ body {
 
   th,td,tr {
     border: 2px solid black;
+    width: 50px;
   }
 
   th {
@@ -91,21 +92,15 @@ body {
   }
 
   i {
-    font-size: .2rem;
+    transform: scale(.9);
   }
 
   th:active {
-    opacity: 80%;
+    opacity: 90%;
   }
 
   td:active {
-    opacity: 80%;
-  }
-  
-  img {
-    margin: 0;
-    width: 40px;
-    height: 40px;
+    opacity: 90%;
   }
 
  
