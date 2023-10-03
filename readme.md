@@ -15,6 +15,10 @@ Basic Calculator
 A simple calculator with the ability to perform four basic operations and a clear and undo button
 
 ### Screenshot
+
+![Screenshot 2023-10-03 at 17-42-16 Calculator](https://github.com/Mahdii-Kariimiian/calculator/assets/134393975/daadff2e-cd3e-4d62-987f-79bce346ec04)
+![Screenshot 2023-10-03 at 17-41-54 Calculator](https://github.com/Mahdii-Kariimiian/calculator/assets/134393975/d32cb4c2-1d90-4871-85fc-3d70d89e4728)
+
 ### Links
 -Netlify: 
 
