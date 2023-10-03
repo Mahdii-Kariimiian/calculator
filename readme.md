@@ -20,7 +20,7 @@ A simple calculator with the ability to perform four basic operations and a clea
 ![Screenshot 2023-10-03 at 17-41-54 Calculator](https://github.com/Mahdii-Kariimiian/calculator/assets/134393975/d32cb4c2-1d90-4871-85fc-3d70d89e4728)
 
 ### Links
--Netlify: 
+-Netlify: https://brilliant-bubblegum-d4d4bf.netlify.app/
 
 ## My process
  The calculator first receives the value inside each button with "target.innerText". If it is a number, it executes "handleNumber()" and if it is a symbol, it executes "handleSymbol()". If the buffer, which is a pre-defined variable and equal to zero, is equal to zero, it does nothing. The buffer is later filled with the number selected by the user. In "handleSymbol()" written with "switch", nothing is done if clear is selected and buffer is equal to zero. In the equal section, a new variable called "previousOperator" is used. If this variable is empty, nothing will be done. But if it is filled with one of the four main actions chosen by the user. Its value is passed to a function called flushOperation. In this function, according to the symbol, which is one of the four basic mathematical operations, mathematical operations are performed on the two numbers entered by the user, and the result is displayed to the user. Back to the "handleSymbol()" again. If the undo option is selected and the buffer is not already zero, numbers will be reduced one by one from the end of the buffer until the buffer length reaches one. At this stage, a buffer equal to zero is placed. If the selected symbol is one of the four main operations, its value is passed to "handleMath()". Mathematical operations are performed on it and the result is displayed to the user.
